@@ -1,0 +1,13 @@
+{
+  "name": "iptv-manager",
+  "version": "1.0.0",
+  "description": "IPTV Manager App and Backend",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "stripe": "^14.0.0"
+  }
+}
+
