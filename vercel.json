@@ -1,15 +1,9 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/**/*.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     { "src": "/api/create-customer", "dest": "/api/create-customer.js" },
     { "src": "/api/create-invoice", "dest": "/api/create-invoice.js" },
+    { "src": "/api/delete-customer", "dest": "/api/delete-customer.js" },
     { "src": "/webhook", "dest": "/api/webhook.js" }
   ]
 }
-
